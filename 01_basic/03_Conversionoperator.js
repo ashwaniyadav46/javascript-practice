@@ -31,3 +31,6 @@ let negativeValue=-value;
 console.log("Negative Value:", negativeValue);
 console.log(1+"2"); // This will result in "12" because the number 1 is converted to a string and concatenated with the string "2"
 console.log(+true); // This will result in 1 because the unary plus operator converts true to a number
+console.log("1" +2 +2);
+console.log(1 + 2 +"2");
+console.log(+true);

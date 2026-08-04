@@ -9,9 +9,11 @@ accountcity = "Los Angeles"; // Reassigning the value of accountcity
 let accountstate; // Declaring a variable without initializing it
 
 console.log("Account ID:", accountid);
-console.log("Account Name:", accountname);
+console.log("Account Name:", accountname); 
 console.log("Account Email:", accountemail);
-console.log("Account Password:", accountpassword);
+console.log("Account Password:", accountpassword); 
+ 
 console.log("Account City:", accountcity);
 console.log("Account State:", accountstate);
-console.table({ accountid, accountname, accountemail, accountpassword, accountcity, accountstate }); // Displaying the variables in a table format
+console.table({ accountid, accountname, accountemail, accountpassword, accountcity, accountstate }); // Displaying the variables in a table format 
+  
