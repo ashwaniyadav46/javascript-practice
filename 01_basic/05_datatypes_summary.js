@@ -20,3 +20,14 @@ console.log(typeof null); // Logging the data type of null to the console (this 
 console.log("Data type of myObject:", typeof myObject); // Logging the data type of the object to the console
 console.log("Data type of myArray:", typeof myArray); // Logging the data type of the array to the console (this will log "object" because arrays are a type of object in JavaScript)
 console.log("Data type of myFunction:", typeof myFunction); // Logging the data type of the function to the console (this will log "function")
+//-- ----------------------------------------------//
+//stack memory and heap memory
+// stack memory is used for storing primitive data types and function calls, while heap memory is used for storing reference data types (objects, arrays, and functions).
+// primitive data types are stored in stack memory, while reference data types are stored in heap memory. When a reference data type is assigned to a variable, the variable stores a reference (or pointer) to the location in heap memory where the actual data is stored.
+//example of stack memory and heap memory
+let primitiveValue = 42; // A primitive value stored in stack memory
+let referenceValue = { name: "Alice", age: 25 }; // A reference value stored in heap memory
+let anotherReferenceValue = referenceValue; // anotherReferenceValue now points to the same object in heap memory as referenceValue
+console.log("Primitive Value:", primitiveValue);
+console.log("Reference Value:", referenceValue);
+console.log("Another Reference Value:", anotherReferenceValue); 
