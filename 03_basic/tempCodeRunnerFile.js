@@ -1,1 +1,1 @@
-saymyname();
+console.log(c);
